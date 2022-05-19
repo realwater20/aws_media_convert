@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: local
+
+aws:
+  mediaconvert:
+    input_bucket: "s3://버킷명"
+    input_bucket_path: "경로명"
+    output_bucket: "s3://버킷명"
+    output_bucket_path: "경로명"
+    role_arn: "역할 ARN값"
+    access_key: "액세스값"
+    secret_key: "비밀액세스값"
